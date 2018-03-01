@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# Welcome to Toontown.co!
 
-You can use the [editor on GitHub](https://github.com/BelloqZafarian/Toontown.co/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You may remember Disney's Toontown Online from 2003-2013.  Well, there are now several different servers and projects that are set on reviving the game and even adding new content to it!  This website is dedicated to linking to some of the more well-known of these projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BelloqZafarian/Toontown.co/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### [Toontown Rewritten](https://www.toontownrewritten.com/)
+### [Toontown Offline](https://ttoffline.com/)
+### [Toontown: Operation Dessert Storm](https://opdessertstorm.com/)
