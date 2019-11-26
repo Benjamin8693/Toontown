@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title>Toontown.co</title>
+
+    <link rel="stylesheet" href="css/bulma.min.css">
+</head>
+
+<style>
+    body,html,.hero{
+        overflow: hidden;
+        background: url(img/bg.png);
+        background-size: 100vw 100vh;
+    }
+    img:hover{
+        -webkit-animation: animate-logo 2s infinite;
+            animation: animate-logo 2s infinite;
+         animation-timing-function: ease-in-out;
+    }
+    /** LOGO ANIMATION - from ttoff **/
+    @-webkit-keyframes animate-logo {
+        50% {
+            transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+            -moz-transform: scale(1);
+            -webkit-transform: scale(1);
+            -o-transform: scale(1);
+            -ms-transform: scale(1);
+        }
+    }
+
+    @keyframes animate-logo {
+        50% {
+            transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+            -moz-transform: scale(1);
+            -webkit-transform: scale(1);
+            -o-transform: scale(1);
+            -ms-transform: scale(1);
+        }
+    }
+</style>
+
+<body>
+    <section class="hero is-success is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered is-multiline">
+                    <div class="column is-4"><center><a href="https://ttoffline.com/"><img src="img/ttoff.png"></a></center></div>
+                    <div class="column is-4"><center><a href="https://old.reddit.com/r/toontown"><img src="img/rtt.png"></a></center></div>
+                    <div class="column is-4"><center><a href="https://corporateclash.net/"><img src="img/clash.png"></a></center></div>
+                    <div class="column is-4"><center><a href="https://opdessertstorm.com/"><img src="img/ods.png"></a></center></div>
+                    <div class="column is-4"><center><a href="https://tooniversal.com/"><img src="img/tooniversal.png"></a></center></div>
+                    <div class="column is-4"><center><a href="https://toontownrelived.com/"><img src="img/relived.png"></a></center></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
