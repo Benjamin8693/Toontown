@@ -1,0 +1,694 @@
+body,html{
+  font-size: 12px !important;
+  color: #515151;
+  font-family: Arial,Helvetica,sans-serif !important;
+  background: #2b7ed0 url("../img/blue.jpg") no-repeat scroll top center;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto !important;
+}
+
+.content li + li {
+    margin-top: 0 !important;
+}
+
+.page{
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 70px 50px;
+}
+
+.box{
+    width: 1030px !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.box.banner{
+    background: #880303;
+    text-align: center;
+    color: #FFF;
+    padding: 3px !important;
+}
+
+.box.banner a{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.box.content{
+    width: 994px;
+    margin: 0 auto;
+    padding: 0 16px !important;
+    background: url("../img/bg_mainContainer.png") repeat scroll 0 0;
+}
+
+.mainContent{
+    padding: 20px;
+}
+
+.box.text{
+    border-radius: 10px !important;
+    border: 2px solid #D4D4D4;
+    background: #FFF;
+    width: 960px !important;
+    padding: 10px 20px !important;
+}
+
+.box.text p{
+    font-size: 16px;
+}
+
+.box.text p strong{
+    color: #555 !important;
+}
+
+.box.text ul li{
+    font-size: 17px;
+    padding: 3px 20px 10px;
+    list-style-type: none;
+    line-height: 20px;
+    background: url("../img/icon_ulBullet.png") no-repeat scroll left 10px;
+}
+
+/** Navbar code created by Disney **/
+#header {
+    position: relative;
+    min-height: 150px;
+    padding: 0 30px;
+    z-index: 3;
+    left: -5px;
+}
+.ttChrome {
+    margin: 0 auto;
+    width: 1030px;
+    height: 40px;
+}
+#headerLogo {
+    display: block;
+    cursor: pointer;
+    width: 244px;
+    height: 110px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    z-index: 2;
+    text-indent: -9999px;
+    background: url("../img/logo.png") no-repeat scroll 0 0;
+}
+a#headerPlayNow {
+    display: block;
+    cursor: pointer;
+    width: 256px;
+    height: 130px;
+    position: absolute;
+    right: -10px;
+    top: 18px;
+    z-index: 2;
+    text-indent: -9999px;
+    background: url("../img/play-now.png") no-repeat scroll 0 0;
+}
+a#headerPlayNow:hover {
+    background: url("../img/play-now.png") no-repeat scroll 0 0;
+    width: 256px;
+    height: 139px;
+    background-position: -256px -0px;
+}
+#headerLogin {
+    left: 525px;
+    list-style-type: none;
+    position: absolute;
+    top: 10px;
+}
+#headerLogin li {
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #2078fd;
+}
+#headerNav {
+    width: 700px;
+    height: 60px;
+    position: absolute;
+    left: 126px;
+    top: 35px;
+    z-index: 1;
+    padding: 0 85px;
+    list-style-type: none;
+    text-indent: -9999px;
+    background-position: 0 447px;
+}
+#subNavContainer {
+    height: 60px;
+    left: 200px;
+    position: relative;
+    top: 83px;
+    width: 600px;
+    z-index: 5;
+}
+#subNavContainer ul li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    top: 29px;
+}
+#subNavContainer ul li a {
+    display: block;
+    text-indent: -9999px;
+    height: 17px;
+}
+#headerNav,
+#headerNav li a,
+#headerNav li ul,
+#subNavContainer ul,
+#subNavContainer ul li a,
+#subNavContainer #headerNavParentsSub {
+    background-image: url("../img/bg_nav.png");
+}
+#headerNav li {
+    float: left;
+    height: 60px;
+    position: absolute;
+}
+#headerNav li a {
+    display: block;
+    height: 60px;
+    background-position: 0 507px;
+}
+#headerNavToonHQ,
+#headerNavToonHQ a {
+    width: 120px;
+}
+#headerNavToonHQ a:hover,
+.toonHq #headerNavToonHQ a {
+    background-position: 1px 387px;
+}
+#headerNavToonHQ {
+    left: 85px;
+}
+#headerNav #headerNavToonHQ ul {
+    width: 600px;
+    height: 62px;
+    background-position: 0 62px;
+}
+.toonHq #headerNavToonHQSub {
+    background-position: 0 -180px;
+    display: block;
+    height: 61px;
+    margin-left: 0;
+    width: 592px;
+}
+#headerNavToonHQSub #toonWhatsNew {
+    left: 29px;
+}
+#toonWhatsNew a {
+    width: 86px;
+}
+#toonNews #headerNavToonHQSub #toonWhatsNew a,
+#headerNavToonHQSub #toonWhatsNew a:hover {
+    background-position: 0 582px;
+}
+#headerNavToonHQSub #toonTopToon {
+    left: 37px;
+}
+#toonTopToon a {
+    width: 78px;
+}
+#topToons #headerNavToonHQSub #toonTopToon a,
+#headerNavToonHQSub #toonTopToon a:hover {
+    background-position: -96px 582px;
+}
+#headerNavToonHQSub #toonFanArt {
+    left: 42px;
+}
+#toonFanArt a {
+    width: 55px;
+}
+#toonArt #headerNavToonHQSub #toonFanArt a,
+#headerNavToonHQSub #toonFanArt a:hover {
+    background-position: -180px 582px;
+}
+#headerNavToonHQSub #toonCoolStuff {
+    left: 45px;
+}
+#toonCoolStuff a {
+    width: 69px;
+}
+#toonFun #headerNavToonHQSub #toonCoolStuff a,
+#headerNavToonHQSub #toonCoolStuff a:hover {
+    background-position: -244px 582px;
+}
+#headerNavToonHQSub #toonPlayersGuide {
+    left: 54px;
+}
+#toonPlayersGuide a {
+    width: 106px;
+}
+#playersGuide #headerNavToonHQSub #toonPlayersGuide a,
+.playersGuideDetail #headerNavToonHQSub #toonPlayersGuide a,
+#headerNavToonHQSub #toonPlayersGuide a:hover {
+    background-position: -320px 582px;
+}
+#headerNavToonHQSub #toonReleaseNotes {
+    left: 56px;
+}
+#toonReleaseNotes a {
+    width: 105px;
+}
+#releaseNotes #headerNavToonHQSub #toonReleaseNotes a,
+#headerNavToonHQSub #toonReleaseNotes a:hover {
+    background-position: -432px 582px;
+}
+#releaseNotes ul {
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+#releaseNotes .ttGen2RTxt2 {
+    font-size: 16px;
+    line-height: 24px;
+}
+#releaseNotes p {
+    margin: 0 0 24px;
+}
+#releaseNotes h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+#headerNavAbout,
+#headerNavAbout a {
+    width: 92px;
+}
+#headerNavAbout a:hover,
+.about #headerNavAbout a {
+    background-position: -120px 387px;
+}
+#headerNavAbout {
+    left: 206px;
+}
+#headerNavMembership,
+#headerNavMembership a {
+    width: 150px;
+}
+#headerNavMembership a:hover,
+.membership #headerNavMembership a {
+    background-position: -209px 387px;
+}
+#headerNavMembership {
+    left: 292px;
+}
+.membership #headerNavMembershipSub {
+    background-position: 0 -242px;
+    display: block;
+    height: 61px;
+    margin-left: 23px;
+    width: 523px;
+}
+#headerNavMembershipSub #membershipJoin {
+    left: 29px;
+}
+#membershipJoin a {
+    width: 95px;
+}
+#join #headerNavMembershipSub #membershipJoin a,
+#headerNavMembershipSub #membershipJoin a:hover {
+    background-position: 0 564px;
+}
+#headerNavMembershipSub #membershipPurchase {
+    left: 35px;
+}
+#membershipPurchase a {
+    width: 65px;
+}
+#purchase #headerNavMembershipSub #membershipPurchase a,
+#headerNavMembershipSub #membershipPurchase a:hover {
+    background-position: -106px 564px;
+}
+#headerNavMembershipSub #membershipManage {
+    left: 42px;
+}
+#membershipManage a {
+    width: 123px;
+}
+#manageAccount #headerNavMembershipSub #membershipManage a,
+#headerNavMembershipSub #membershipManage a:hover {
+    background-position: -175px 564px;
+}
+#headerNavMembershipSub #membershipRedeem {
+    left: 45px;
+}
+#subNavContainer ul li#membershipRedeem {
+    top: 30px;
+}
+#membershipRedeem a {
+    width: 80px;
+}
+#redeemCard #headerNavMembershipSub #membershipRedeem a,
+#headerNavMembershipSub #membershipRedeem a:hover {
+    background-position: -301px 563px;
+}
+#headerNavMembershipSub #membershipContact {
+    left: 55px;
+}
+#subNavContainer ul li#membershipContact {
+    top: 30px;
+}
+#membershipContact a {
+    width: 80px;
+}
+#contact #headerNavMembershipSub #membershipContact a,
+#headerNavMembershipSub #membershipContact a:hover {
+    background-position: -388px 563px;
+}
+#headerNavParents,
+#headerNavParents a {
+    width: 106px;
+}
+#headerNavParents a:hover,
+.parents #headerNavParents a {
+    background-position: -359px 387px;
+}
+#headerNavParents {
+    left: 439px;
+}
+.parents #headerNavParentsSub {
+    background-position: 0 -305px;
+    display: block;
+    height: 63px;
+    margin-left: 90px;
+    width: 532px;
+}
+#headerNavParentsSub #parentsFeatures {
+    left: 99px;
+}
+#parentsFeatures a {
+    width: 65px;
+}
+#features blockquote {
+    padding: 0 60px 0 0;
+}
+#features #headerNavParentsSub #parentsFeatures a,
+#headerNavParentsSub #parentsFeatures a:hover {
+    background-position: -81px 546px;
+}
+#headerNavParentsSub #parentsManage {
+    left: 102px;
+}
+#parentsManage a {
+    width: 120px;
+}
+#manageAccount #headerNavParentsSub #parentsManage a,
+#account-management #headerNavParentsSub #parentsManage a,
+#headerNavParentsSub #parentsManage a:hover {
+    background-position: -148px 546px;
+}
+#headerNavParentsSub #parentsFaqs {
+    left: 110px;
+}
+#parentsFaqs a {
+    width: 38px;
+}
+#faqs #headerNavParentsSub #parentsFaqs a,
+#headerNavParentsSub #parentsFaqs a:hover {
+    background-position: -276px 546px;
+}
+#headerNavParentsSub #parentsMembership {
+    left: 98px;
+}
+#parentsMembership a {
+    width: 72px;
+}
+#membership #headerNavParentsSub #parentsMembership a,
+#headerNavParentsSub #parentsMembership a:hover {
+    background-position: -1px 546px;
+}
+#headerNavParentsSub #parentsSafety {
+    left: 100px;
+}
+#parentsSafety a {
+    width: 49px;
+}
+#safety #headerNavParentsSub #parentsSafety a,
+#headerNavParentsSub #parentsSafety a:hover {
+    background-position: -94px 546px;
+}
+#headerNavParentsSub #parentsRecognition {
+    left: 119px;
+}
+#parentsRecognition a {
+    width: 88px;
+}
+#recognition #headerNavParentsSub #parentsRecognition a,
+#headerNavParentsSub #parentsRecognition a:hover {
+    background-position: -326px 546px;
+}
+#headerNavHelp,
+#headerNavHelp a {
+    width: 93px;
+    background-position: 100px 507px !important;
+}
+#headerNavHelp a:hover,
+.help #headerNavHelp a {
+    background-position: -464px 387px !important;
+}
+#headerNavHelp {
+    left: 546px;
+}
+.help #headerNavHelpSub {
+    background-position: 0 -369px;
+    display: block;
+    height: 61px;
+    margin-left: 56px;
+    width: 519px;
+}
+#headerNavHelpSub #helpFaqs {
+    left: 18px;
+}
+#helpFaqs a {
+    width: 43px;
+}
+#faqs #headerNavHelpSub #helpFaqs a,
+#headerNavHelpSub #helpFaqs a:hover {
+    background-position: 0 527px;
+}
+#headerNavHelpSub #helpTechIssues {
+    left: 29px;
+}
+#helpTechIssues a {
+    width: 105px;
+}
+#techIssues #headerNavHelpSub #helpTechIssues a,
+#headerNavHelpSub #helpTechIssues a:hover {
+    background-position: -56px 527px;
+}
+#headerNavHelpSub #helpPlayersGuide {
+    left: 45px;
+}
+#helpPlayersGuide a {
+    width: 95px;
+}
+#playersGuide #headerNavHelpSub #helpPlayersGuide a,
+#headerNavHelpSub #helpPlayersGuide a:hover {
+    background-position: -180px 527px;
+}
+#headerNavHelpSub #helpContact {
+    left: 63px;
+}
+#helpContact a {
+    width: 70px;
+}
+#contact #headerNavHelpSub #helpContact a,
+#headerNavHelpSub #helpContact a:hover {
+    background-position: -288px 527px;
+}
+#headerNavHelpSub #helpSubmit {
+    left: 71px;
+}
+#helpSubmit a {
+    width: 98px;
+}
+#submitBug #headerNavHelpSub #helpSubmit a,
+#headerNavHelpSub #helpSubmit a:hover {
+    background-position: -250px 527px;
+}
+#headerNavHelpSub #helpManage {
+    left: 75px;
+}
+#helpManage a {
+    width: 114px;
+}
+#manageAccount #headerNavHelpSub #helpManage a,
+#headerNavHelpSub #helpManage a:hover {
+    background-position: -373px 527px;
+}
+#gde_footerContainer ul,
+#gde_footerContainer ol,
+#gde_footerContainer li,
+#gde_footerContainer pre,
+#gde_footerContainer form,
+#gde_footerContainer fieldset,
+#gde_footerContainer legend,
+#gde_footerContainer p,
+#gde_footerContainer th {
+ margin: 0;
+ padding: 0;
+}
+#gde_footerContainer,
+#gde_footerContainer a {
+ font-family:arial,helvetica,sans-serif;
+}
+#gde_footerContainer table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+#gde_footerContainer fieldset,
+#gde_footerContainer img {
+ border: 0;
+}
+#gde_footerContainer li {
+ list-style: none;
+}
+#gde_footerContainer th {
+ text-align: left;
+}
+#gde_footerContainer {
+ margin:0 auto;
+ font-weight:normal;
+ width:100%;
+ background:none;
+}
+#gde_footerContents {
+ margin:0 auto;
+ width:996px;
+}
+#gde_footerTitleContainer {
+ height:47px;
+ line-height: 47px;
+ padding-left:134px;
+ text-align:left;
+ font-size:11px;
+ font-weight:bold;
+ color: #2c2c2c;
+ background-image:url('https://web.archive.org/web/20130815001201im_/http://a.dolimg.com/en-US/dcom/media/footer/sprites/footerSprites.png');
+ background-repeat:no-repeat;
+ background-position:24px 4px;
+ border-bottom:solid 1px #cccccc;
+}
+#gde_footerSiteMapContainer {
+ text-align:center;
+}
+#gde_footerSitemapFirstRow {
+ padding: 18px 24px 20px 24px;
+ text-align:left;
+}
+#gde_footerSitemapRow {
+ padding: 18px 24px 20px 24px;
+ border-top:solid 1px #ffffff;
+ text-align:left;
+}
+.gde_footerSitemapGroup {
+ margin:0;
+ table-layout:auto;
+ text-align:left;
+}
+table.gde_footerSitemapGroup td {
+ width:135px;
+}
+.gde_footerSitemapGroup a,
+.gde_footerSitemapGroup a:link,
+.gde_footerSitemapGroup a:visited {
+ color:#2c2c2c;
+ text-decoration:none;
+}
+.gde_footerSitemapGroup a:hover {
+ text-decoration:underline;
+}
+.gde_sitemapItemTitle {
+ display:block;
+ font-size:12px;
+ font-weight:bold;
+ line-height:12px;
+ color:#2c2c2c;
+ padding-bottom:6px;
+}
+.gde_sitemapItem {
+ display:block;
+ font-size:11px;
+ line-height:11px;
+ color:#2c2c2c;
+ padding-bottom:4px;
+}
+.gde_sitemapItem a {
+ font-size:11px;
+ font-weight:normal;
+ line-height:11px;
+}
+#gde_footerFeaturedContainer {
+ height:24px;
+ background-color:#000000;
+ text-align:center;
+}
+.gde_footerFeaturedLinks {
+ margin:0 auto;
+ text-align:center;
+}
+.gde_footerFeaturedLinks,
+.gde_footerFeaturedLinks span,
+.gde_footerFeaturedLinks a,
+.gde_footerFeaturedLinks a:link,
+.gde_footerFeaturedLinks a:visited {
+ white-space: nowrap;
+ font-size:11px;
+ font-weight:normal;
+ line-height: 24px;
+ color:#ffffff;
+ text-decoration:none;
+}
+.gde_footerFeaturedLinks a:hover {
+ text-decoration:underline;
+}
+table.gde_footerFeaturedLinks {
+ width:100%;
+}
+table.gde_footerFeaturedLinks td {
+ white-space: nowrap;
+ padding: 0 5px 0 5px;
+}
+#gde_footerLegalContainer {
+ padding: 16px 0 16px 0;
+ line-height: 11px;
+ font-size:11px;
+ text-align:center;
+ color:#000000;
+}
+.gde_footerLegalLinks a,
+.gde_footerLegalLinks a:link,
+.gde_footerLegalLinks a:visited {
+ color:#000000;
+ text-decoration:none;
+ font-size:11px;
+ font-weight:normal;
+ line-height: 11px;
+}
+.gde_footerLegalLinks a:hover {
+ text-decoration:underline;
+}
+.gde_footerCopyText {
+ padding-top:20px;
+}
+.gde_comScoreLogo {
+ float:right;
+ margin:-39px 10px 0 0;
+ width:68px;
+}
+.gde_comScoreLogo a {
+ outline: none;
+}
+.gde_comScoreLogo img {
+ border: none;
+}
